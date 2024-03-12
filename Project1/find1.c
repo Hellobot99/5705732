@@ -6,7 +6,7 @@ int main()
         
 
     }
-    int bc;
+    int sdfcsad;
     
     return 0;
 }
