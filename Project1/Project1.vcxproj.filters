@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="find1.c">
+    <ClCompile Include="sosu%27ssum.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
