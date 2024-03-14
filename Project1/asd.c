@@ -1,10 +1,17 @@
 #include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
 /*
 소수의 합 구하기
 for문으로 전체 숫자 반복하고 두번째 for문으로 1부터 n까지 숫자를 가져와서 비교한다.
 */
 int main()
 {    
+    clock_t start, stop; //시작 시간, 끝나는 시간 변수 선언
+    double duration;  // 걸리는 시간 변수 선언
+    start = clock(); 
+   
+
     int c = 0;
     
     int sum = 0;
@@ -26,10 +33,14 @@ int main()
 
 
     }
-        printf("%d", sum);
+        printf("%d\n", sum);
+
     
-    
-        
+        stop = clock();
+        duration = (double)(stop - start) / CLOCKS_PER_SEC; //끝나는 시간에서 시작하는 시간을 빼고 그 값을 duration에 넣음
+        printf("수행시간은 %f초 입니다.\n", duration);      //duration을 출력
+
+
     
     return 0;
 }
