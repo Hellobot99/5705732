@@ -15,19 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="11720.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="10809.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="2908.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="5622.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="11718.c">
+    <ClCompile Include="0326_5705732.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
