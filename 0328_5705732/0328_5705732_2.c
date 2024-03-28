@@ -10,12 +10,12 @@ Polynomial poly_mul(Polynomial a, Polynomial b) {
     Polynomial c;
     c.degree = a.degree + b.degree;
 
-    // 다항식 c의 계수를 0으로 초기화
+    
     for (int i = 0; i <= c.degree; i++) {
         c.coef[i] = 0.0;
     }
 
-    // 다항식의 곱셈 수행
+    
     for (int i = 0; i <= a.degree; i++) {
         for (int j = 0; j <= b.degree; j++) {
             c.coef[i + j] += a.coef[i] * b.coef[j];
