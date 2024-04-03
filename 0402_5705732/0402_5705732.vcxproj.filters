@@ -15,7 +15,13 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="0402_5705732.c">
+    <ClCompile Include="0402_5705732_add.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="0402_5705732_mul_1.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="0402_5705732_mul_2.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
