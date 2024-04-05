@@ -18,5 +18,8 @@
     <ClCompile Include="0404_5705732.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="0404_5705732_mul.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
