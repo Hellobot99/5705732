@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-#define MAX_QUEUE_SIZE 5
+#define MAX_QUEUE_SIZE 6
 typedef int element;
 typedef struct { 
 	element  data[MAX_QUEUE_SIZE];
